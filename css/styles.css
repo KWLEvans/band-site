@@ -1,19 +1,24 @@
 /* Navbar Styling*/
+
+body {
+  font-family: Futura, sans-serif;
+  margin: auto;
+}
 header a {
   display: inline-block;
   text-decoration: none;
   padding: 20px 20px;
   margin: 0px 10px;
-  font-family: Futura, sans-serif;
   color: white;
 }
 
 header {
   height: 60px;
-  border: 2px solid black;
   text-align: right;
   background-color: darkgrey;
-  margin-bottom: 10px;
+  margin: 0px 0px 10px 10%;
+  padding-left: 30px;
+  width: 80%;
 }
 
 #logo {
@@ -32,7 +37,10 @@ header a:hover {
 .wrapper {
   width: 80%;
   min-width: 300px;
-  background-color: rgb(200, 183, 7);
+  background-color: cornflowerblue;
+  padding: 15px;
+  overflow: auto;
+  margin: 0 10%;
 }
 
 /*Discography.html styling*/
@@ -40,8 +48,9 @@ header a:hover {
   width: 300px;
   border: 5px solid black;
   display: inline-block;
-  margin-top: 10px;
+  margin: 10px 10% 0 10%;
   background-color: lightblue;
+  font-family: sans-serif;
 }
 
 .album img {
@@ -53,4 +62,32 @@ header a:hover {
 
 .album h3, p {
   padding: 0px 5px;
+}
+
+/*footer styling*/
+
+footer {
+  margin-top: 18px;
+  border-top: 2px solid black;
+  text-align: center;
+  clear: both;
+}
+
+footer h5 {
+  margin: 12px 20px;
+  display: inline-block;
+}
+
+footer h5 a {
+  text-decoration: none;
+  color: black;
+}
+
+footer h5 a:hover {
+  color: darkgray;
+}
+
+#homepage img {
+  float: left;
+  margin: 15px;
 }
