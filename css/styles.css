@@ -1,5 +1,4 @@
 /* Navbar Styling*/
-
 body {
   font-family: Futura, sans-serif;
   margin: auto;
@@ -67,10 +66,13 @@ header a:hover {
 /*footer styling*/
 
 footer {
-  margin-top: 18px;
   border-top: 2px solid black;
+  width: 80%;
   text-align: center;
   clear: both;
+  margin: 18px 0;
+  margin-left: 10%;
+  padding: 0 15px;
 }
 
 footer h5 {
@@ -88,6 +90,13 @@ footer h5 a:hover {
 }
 
 #homepage img {
-  float: left;
   margin: 15px;
+}
+
+#cat {
+  float: left;
+}
+
+#morgan {
+  float: right;
 }
