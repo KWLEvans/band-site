@@ -25,3 +25,9 @@ header {
 header a:hover {
   color: gold;
 }
+
+.history {
+  width: 60%;
+  min-width: 300px;
+  background-color: rgb(200, 183, 7);
+}
