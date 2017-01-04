@@ -42,6 +42,24 @@ header a:hover {
   margin: 0 10%;
 }
 
+/*about.html styling*/
+.about p {
+  width: 45%;
+  float: left;
+  margin-left: 50px;
+}
+.about .richards {
+  float: right;
+  margin-right: 50px;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  border: 1px solid black;
+  background-image: url(../img/richards.jpg);
+  background-size: cover;
+}
+
+
 /*Discography.html styling*/
 .album {
   width: 300px;
