@@ -1,23 +1,23 @@
-#### Introduction
+# Introduction
 
-### Website by Keith Evans and Ash Laidlaw
+## Website by Keith Evans and Ash Laidlaw
 
-## http://www.favoriteband.com
+### http://www.favoriteband.com
 
-### Setup and Installation
+## Setup and Installation
 
 _Just navigate to the Website_
 
-### Version History
+## Version History
 
-_Six commits thus far_
+_Seven commits thus far_
 
-### Known Bugs
+## Known Bugs
 
 _Site not yet responsive, errors can occur when resizing_
 
-### Licensing
+## Licensing
 
 _MIT license_
 
-## Copyright (c) 2017 Keith Evans and Ash Laidlaw
+#### Copyright (c) 2017 Keith Evans and Ash Laidlaw
