@@ -3,13 +3,6 @@ body {
   font-family: Futura, sans-serif;
   margin: auto;
 }
-header a {
-  display: inline-block;
-  text-decoration: none;
-  padding: 20px 20px;
-  margin: 0px 10px;
-  color: white;
-}
 
 header {
   height: 60px;
@@ -20,15 +13,30 @@ header {
   width: 80%;
 }
 
+.nav div {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 20px;
+  margin: 0px 10px;
+  color: white;
+}
+
 #logo {
   float: left;
-  font-family: Futura, sans-serif;
   padding: 10px;
   margin: 0;
   color: white;
 }
 
-header a:hover {
+.nav a {
+  text-decoration: none;
+}
+
+.nav a:visited {
+  color: white;
+}
+
+.nav a:hover {
   color: gold;
 }
 
@@ -48,7 +56,8 @@ header a:hover {
   float: left;
   margin-left: 50px;
 }
-.about .richards {
+
+.richards {
   float: right;
   margin-right: 50px;
   height: 300px;
@@ -118,3 +127,39 @@ footer h5 a:hover {
 #morgan {
   float: right;
 }
+
+@media screen and (max-width: 980px) {
+  header {
+    height: auto;
+    text-align: center;
+  }
+
+  header h1 {
+    clear: both;
+    text-align: center;
+  }
+
+  .nav div {
+    clear: both;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    color: black;
+  }
+
+  .nav a {
+    color: black;
+  }
+
+  .about p {
+    clear: both;
+    width: 80%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .richards {
+    clear: both;
+    text-align: center;
+    margin: 0 20%;
+  }
