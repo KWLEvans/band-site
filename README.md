@@ -2,19 +2,13 @@
 
 ## Website by Keith Evans and Ash Laidlaw
 
-### http://www.favoriteband.com
+## Description
+_A band website made at Epicodus to practice basic HTML and CSS styling._
 
-## Setup and Installation
+## Setup/Installation Requirements
 
-_Just navigate to the Website_
-
-## Version History
-
-_Seven commits thus far_
-
-## Known Bugs
-
-_Site not yet responsive, errors can occur when resizing_
+* _Clone GitHub repository_
+* _Open index.html in any web browser_
 
 ## Licensing
 
